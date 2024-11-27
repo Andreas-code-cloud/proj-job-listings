@@ -1,0 +1,28 @@
+
+
+.hero{
+
+    background-color: rgba(0, 0, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    border-top: 3px solid gray;
+
+    h1{
+        font-weight: 900;
+        font-size: 2rem;
+        i{
+            color: rgb(124, 123, 123);
+            text-shadow: 2px 2px purple;
+        }
+        i:hover{
+            color:bisque;
+        }
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 60px;
+    }
+}

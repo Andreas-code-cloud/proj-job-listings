@@ -1,0 +1,81 @@
+html{
+    scroll-snap-type:y mandatory;
+    scroll-behavior: smooth;
+    font-size: 1.16rem;
+}
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM sans",sans-serif;
+
+}
+
+ 
+body{
+    // background-color: #0c0c1d;
+    background: linear-gradient( #0c0c1d7a, gray,  #0c0c1d7a);
+    color: lightgray;
+
+
+    // main{
+        
+
+    //     max-width: 1200px;
+    //     background-color: red;
+    //     height: 500px ;
+
+    // }
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px;
+    background-color: rgba(0, 0, 255, 0.6);
+    color: white;
+
+    width: 120px;
+    height: 40px;
+
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.6);
+    color:  rgba(0, 0, 255, 0.596);
+    font-weight: 700;
+    border: 2px solid rgba(0, 0, 255, 0.6);;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@mixin mobile{
+    @media(min-width: 100px) and (max-width: 600px){
+        @content;
+    }
+}
+@mixin tabletSmall{
+    @media(min-width: 601px) and (max-width: 840px){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 841px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+  
+
+  @mixin desktop {
+    @media (min-width: 1025px ) {
+        @content;
+    }
+}

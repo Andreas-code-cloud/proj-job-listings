@@ -1,0 +1,27 @@
+.returnBtnContainer{
+    margin: auto;
+    background-color: white;
+    height: 80px;
+    .returnBtn{
+        display: flex;
+        align-items: center;
+        margin: auto;
+
+
+        max-width: 1200px;
+        height: 80px;
+        color: rgba(0, 0, 255, 0.6);
+        font-size: x-large;
+        .arrowImg{
+            scale: 120%;
+            padding-top: 10px;
+            .faIconArrow{
+                font-size: 35px;
+                align-self: flex-end;
+    
+            }
+        }
+    }
+}
+
+

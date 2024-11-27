@@ -1,0 +1,168 @@
+.singleJobSection{
+    height: 1265px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .centeringCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        padding: 10px;
+
+        .SingleJobTemplate{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr  ;
+            grid-template-rows:  200px 1fr 200px 200px 200px ;
+            gap:20px;
+            max-width: 1200px;
+
+            .emt{
+                
+                grid-row: span 1;
+                grid-column: span 2;
+            }
+
+            .companyInfo{ 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: space-between;
+                
+
+                background-color:rgba(0, 0, 255, 0.5);
+
+                border-radius: 5px;
+                padding: 15px;
+                color: white;    
+        
+                grid-column-start: 1;
+        
+                grid-row: span 5;
+                grid-column: span 1;
+                .companyDescription{
+                    flex: 3;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: space-around;
+                    .headings{
+                        .title{
+                            color: rgb(0, 0, 0);
+                            font-size: 1.5rem;
+                            font-weight: 900;
+
+                        }
+
+                        line-height: 50px;
+                        border-radius: 20px 20px ;
+
+                    }
+                    .info{
+                        line-height: 35px;
+                        max-height: 400px;
+
+                    }
+                }
+
+                .companyContact{
+                    flex: 1;
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: space-around;
+                
+                }
+            }
+        
+        
+            .jobListingHeading{
+                border: 5px solid gainsboro;
+                background-color:ghostwhite;
+                border-radius: 5px;
+                padding: 1em;
+
+                color: black;    
+                font-size: larger;
+
+        
+                grid-row: span 1;
+                grid-column: span 2;
+
+                display: flex;
+                flex-direction: column;
+                align-content: space-around;
+
+                 .location{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color:rgb(204, 58, 58);
+
+                    display: flex;
+                    align-items: center;
+                    .locationPin{
+                        width: 30px;
+                    }
+                }
+            }
+        
+            .editListing{
+                border-radius: 25px;
+                padding: 1em;
+                
+                color: purple;
+                text-decoration: 5px solid underline;
+
+                grid-row: span 2;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                .centeringContB{
+                    width: fit-content;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        
+            .jobListingBody{
+                border: 5px solid gainsboro;
+                background-color:ghostwhite;
+                border-radius: 5px;
+                padding: 1em;
+                
+                color: black;
+        
+                grid-column-start: 3;
+        
+                grid-row: span 2;
+                grid-column: span 3;
+
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-evenly;
+                font-size: larger;
+                .title{
+                    color: rgba(0, 0, 255, 0.8);
+                    
+                }
+       
+                .splitHr{
+                    width: 100%;
+                    hr{
+                        margin: auto;
+                        width: 60%;
+
+                    }
+                }
+            }
+        }
+    }
+}

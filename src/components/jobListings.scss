@@ -1,0 +1,85 @@
+.jobListingSection{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.4);
+    margin:  auto;
+    padding-bottom: 80px;
+
+    .container{
+        margin: auto;
+        max-width: 1200px;
+
+        padding: 20px;
+        .title{
+            font-size: xx-large;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+    }
+    .containersPlacement{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        max-width: 1600px;
+        margin: auto;
+        
+        .jobOpeningContainer{
+            width: 500px;
+            height: 400px;
+
+            background-color: white;
+            color: black;
+            border-radius: 10px 10px;
+
+            padding: 10px;
+            margin: 15px;
+
+            .jobOpeningTemplate{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                .jobOpeningHeader{
+                    line-height: 35px;
+                    flex: 1;
+
+                }
+                .jobOpeningMain{
+                    flex: 2;
+                    display: flex;
+                    flex-direction: column;
+                    .description{
+                        flex: 1;
+                    }
+                    .salary{
+                        color: rgba(0, 0, 255, 0.6);
+                    }
+                    
+                }
+                .jobOpeningFooter{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex: 1;
+
+                    .location{
+                        font-size: 15px;
+                        font-weight: 600;
+                        color:rgb(204, 58, 58);
+
+                        display: flex;
+                        align-items: center;
+                        .locationPin{
+                            width: 30px;
+                        }
+                    }
+                    .btn{
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

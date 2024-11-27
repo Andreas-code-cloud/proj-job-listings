@@ -1,0 +1,86 @@
+
+
+
+.addJobBackground{
+    max-width: 1200px;
+    height: 1500px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5rem;
+    
+    .addJobContainer{
+        background-color:rgba(0, 0, 255, 0.5);
+
+        margin: 10px;
+        padding-top: 5px;
+        padding-right: 5px;
+
+        width: 50%;
+        height: 90%;
+        min-height: 100px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 20px;
+
+        .formContainer{
+            width: 100%;
+            height: 100%;
+
+            min-width: 350px;
+            padding: 20px;
+            
+            color: black;    
+            background-color:ghostwhite;
+          
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            
+            border-radius: 20px;
+            box-shadow: inset 1px 0px 0px 5px ;
+
+            .allFormElements{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+            }
+            .allFormInputs{
+                padding: 5px;
+                min-height: 35px;
+                border-radius: 10px 10px;
+                font-size: 1rem;
+
+            }
+            .allFormTxtArea{
+                font-size: 1rem;
+                padding: 5px;
+                min-height: 50px;
+                border-radius: 10px 10px;
+
+            }
+            .formContainerTitle{
+                font-size: xx-large;
+                text-align: center;
+
+            }
+            
+
+            .modifyBtn{
+                width: 100%;
+                font-size: 1.4rem;
+            }
+        }
+
+    }
+    
+}

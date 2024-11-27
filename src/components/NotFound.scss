@@ -1,0 +1,40 @@
+
+.notFoundSection{
+    //className="text-center flex flex-col justify-center items-center h-96"
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(255, 193, 7, 0.808);
+    .msgContainer{
+        max-width: 1200px;
+        margin: 10px;
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap ;
+
+        justify-content: center;
+        align-items: center;
+        
+        background: #0000005e;
+        border-radius: 30px 30px;
+
+        font-size: 1.1rem;
+
+        padding: 30px;
+        max-width: 500px;
+        max-height: 600px;
+        .ExclamationTriangle{
+            font-size: 10rem;
+            color: rgba(220, 50, 70, 1);
+        }
+        span{
+            color: rgba(220, 50, 70, 1);
+            font-size: 1.5rem;
+        }
+        
+    }
+}
